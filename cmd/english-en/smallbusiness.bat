@@ -9,14 +9,14 @@ echo 9) Asians 10) Europeans 11) Americans 12) Ancient
 echo 13) Maori and Aboriginals 15) Native Islanders 16) Africans
 set /p chooseball=Choice:
 
-if %chooseball% == 1 goto asiaroute
-if %chooseball% == 2 goto whiteroute
-if %chooseball% == 3 goto indianroute
-if %chooseball% == 4 goto oldroute
-if %chooseball% == 5 goto aussieroute
-if %chooseball% == 6 goto alienroutewarn
-if %chooseball% == 7 goto islandroute
-if %chooseball% == 8 goto africaroute
+if %chooseball% == 9 goto asiaroute
+if %chooseball% == 10 goto whiteroute
+if %chooseball% == 11 goto indianroute
+if %chooseball% == 12 goto oldroute
+if %chooseball% == 13 goto aussieroute
+if %chooseball% == 14 goto alienroutewarn
+if %chooseball% == 15 goto islandroute
+if %chooseball% == 16 goto africaroute
 goto chooseball
 
 :asiaroute
@@ -56,7 +56,7 @@ echo The following is not a canon part of the game.
 echo Even though it is in the game.
 echo It's meant as a joke.
 echo So do not take everything as the following serious.
-echo 
+pause >nul
 
 :alienroute
 cls
@@ -76,9 +76,9 @@ if %alienroute% == 2 goto pyramids
 	:no_pyramids
 	echo 14ball: Naah, we don't do slavery
 	pause >nul
-	echo Trilluminti: Hey 614ball, erm... Why didn't you let them do slavery?
+	echo Trilluminti: Hey 6ball and 14ball, erm... Why didn't you let them do slavery?
 	pause >nul
-	echo -trilluminati blows 6balls & 14balls up-
+	echo ~trilluminati blows 6balls and 14balls up~
 	pause >nul
 	echo GAME OVER
 	pause >nul
@@ -96,7 +96,7 @@ if %alienroute% == 2 goto pyramids
 	pause >nul
 	echo 14ball (1): Build Pyramids for us.
 	pause >nul
-	echo ACHIEVEMENT UNLOCKED: PYRAMID BUSINESS
+	echo ACHIEVEMENT UNLOCKED: PRIME TRI TIME
 	pause >nul
 	echo Trilluminati: Oh hey. Nice pyramids there.
 	pause >nul
